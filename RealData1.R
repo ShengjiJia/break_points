@@ -2,8 +2,8 @@ library(glmnet)
 library(splines)
 
 ################Real Data 1
-load("C:/Users/Acer/Desktop/My Document/Documents/Research/Projects/change points(series)/data20.RData")
-y=as.vector(t(data20[4,1:566,1]))      #data20[4st stock, days 1-566, open prices]
+load("C:/Users/Acer/Desktop/My Document/Documents/Research/Projects/change points(series)/data4.RData")
+y=as.vector(t(data4[4,1:566,1]))      #data20[4st stock, days 1-566, open prices]
 n=length(y)
 x=(1:n)/n
 X=matrix(1,nrow=n,ncol=n)
