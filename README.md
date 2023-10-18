@@ -16,4 +16,6 @@ Code
 
 Data
 
+'data4' is the stock daily open price data used in 'RealData1.R' file.
+
 'Australian CPI data' is the Australian consumer price index data used in 'RealData2.R' file.
